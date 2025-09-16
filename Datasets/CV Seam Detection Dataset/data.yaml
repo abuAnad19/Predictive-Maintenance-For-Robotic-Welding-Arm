@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['seam']
+
+roboflow:
+  workspace: seam-2fhuj
+  project: weld-seam-detection-7mhq4
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/seam-2fhuj/weld-seam-detection-7mhq4/dataset/2
